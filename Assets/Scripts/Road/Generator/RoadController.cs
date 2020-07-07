@@ -16,7 +16,8 @@ namespace Road.Generator
 
         public RoadType RoadType => roadType;
 
-        public Vector3 EndPoint => endPoint.position;
+        public Vector3 EndPosition => endPoint.position;
+        public Quaternion EndRotation => endPoint.rotation;
         
         public RoadType GetNextRoad()
         {

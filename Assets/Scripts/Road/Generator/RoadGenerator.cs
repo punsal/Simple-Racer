@@ -20,11 +20,13 @@ namespace Road.Generator
 
         private List<GameObject> generatedRoads = new List<GameObject>();
         private Vector3 spawnPosition;
+        private Quaternion spawnRotation;
         private RoadType nextRoadType;
 
         public void Generate()
         {
-            spawnPosition = Vector3.zero + Vector3.down * 0.5f;
+            spawnPosition = Vector3.zero;
+            spawnRotation = Quaternion.identity;
 
             SpawnRoad(startingRoadController);
             for (var i = 0; i < initialCount; i++)
@@ -36,13 +38,15 @@ namespace Road.Generator
 
         private void SpawnRoad(RoadController roadController)
         {
-            var temp = Instantiate(roadController);
-            temp.transform.position = spawnPosition;
-            generatedRoads.Add(temp.gameObject);
+            var tempRoad = Instantiate(roadController);
+            var tempRoadTransform = tempRoad.transform;
+            tempRoadTransform.position = spawnPosition;
+            tempRoadTransform.rotation = spawnRotation;
+            generatedRoads.Add(tempRoad.gameObject);
 
             try
             {
-                nextRoadType = temp.GetNextRoad();
+                nextRoadType = tempRoad.GetNextRoad();
             }
             catch (Exception e)
             {
@@ -50,7 +54,8 @@ namespace Road.Generator
                 nextRoadType = RoadType.DefaultForward;
             }
           
-            spawnPosition = temp.EndPoint;
+            spawnPosition = tempRoad.EndPosition;
+            spawnRotation = tempRoad.EndRotation;
         }
     }
 }

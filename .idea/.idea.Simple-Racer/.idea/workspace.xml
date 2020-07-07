@@ -11,48 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6950e03b-96d6-46d2-916a-d54adef5341b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/.idea.Simple-Racer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Solid Color Dark Grey.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Solid Color Dark Grey.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Solid Color Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Solid Color Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Forward Default 1x1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Forward Default 1x1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Left Default 1x1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Left Default 1x1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Right Default 1x1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Default Road Prefabs/Road - Right Default 1x1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Left.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Left.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Right.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Right.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraFollowController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraFollowController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Road Prefabs/Road - Turn Right.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +45,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraFollowController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarMovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594068904608</updated>
       <workItem from="1594068922477" duration="9292000" />
+      <workItem from="1594152046025" duration="487000" />
     </task>
     <servers />
   </component>
@@ -153,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
