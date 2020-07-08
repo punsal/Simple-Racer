@@ -3,8 +3,8 @@
     public enum RoadType
     {
         DefaultForward,
-        DefaultRight,
-        DefaultLeft,
+        UTurnRight,
+        UTurnLeft,
         TurnLeft,
         TurnRight
     }

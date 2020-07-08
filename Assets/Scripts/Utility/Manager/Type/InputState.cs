@@ -4,6 +4,7 @@ namespace Utility.Manager.Type
     {
         Down,
         Drag,
-        Up
+        Up,
+        Hold
     }
 }

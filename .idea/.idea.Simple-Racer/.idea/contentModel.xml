@@ -754,6 +754,21 @@
         <e p="Scripts" t="Include">
           <e p="Car" t="Include">
             <e p="CarController.cs" t="Include" />
+            <e p="Drive" t="Include">
+              <e p="CarDriftController.cs" t="Include" />
+              <e p="CarDriveController.cs" t="Include" />
+            </e>
+            <e p="Interface" t="Include">
+              <e p="ISteerController.cs" t="Include" />
+              <e p="IThrustController.cs" t="Include" />
+            </e>
+            <e p="Wheel" t="Include">
+              <e p="CarWheelSteeringController.cs" t="Include" />
+              <e p="CarWheelThrustController.cs" t="Include" />
+              <e p="Graphics" t="Include">
+                <e p="CarWheelGraphicsController.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Controllers" t="Include">
             <e p="CameraFollowController.cs" t="Include" />
@@ -764,6 +779,9 @@
           <e p="GameManager.cs" t="Include" />
           <e p="Hook" t="Include">
             <e p="HookController.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="InputManager.cs" t="Include" />
           </e>
           <e p="Road" t="Include">
             <e p="Generator" t="Include">

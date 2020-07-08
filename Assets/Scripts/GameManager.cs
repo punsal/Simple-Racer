@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         roadGenerator.Generate();
-        carController.gameObject.SetActive(true);
-        cameraFollowController.enabled = true;
+        //carController.gameObject.SetActive(true);
+        //cameraFollowController.enabled = true;
     }
 }
