@@ -1,48 +1,32 @@
 ﻿using UnityEngine;
+using Utility.Behaviour.Game.HotKey;
 using Utility.Manager.Type;
 
 namespace Manager
 {
     public class InputManager : MonoBehaviour
     {
+        #pragma warning disable 649
+        [SerializeField] private HotKeyData hotKeyData;
+        #pragma warning restore 649
+        
         public static InputState InputState = InputState.Up;
-
-        #region Delegates
-
-        public delegate void InputDown();
-
-        public delegate void InputHold();
-
-        public delegate void InputUp();
-
-        #endregion
-
-        #region Events
-
-        public static event InputDown OnInputDown;
-        public static event InputHold OnInputHold;
-        public static event InputUp OnInputUp;
-
-        #endregion
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(hotKeyData.keyCode))
             {
                 InputState = InputState.Down;
-                OnInputDown?.Invoke();
             }
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) || Input.GetKey(hotKeyData.keyCode))
             {
                 InputState = InputState.Hold;
-                OnInputHold?.Invoke();
             }
 
-            if (Input.GetMouseButtonUp(0))
+            if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(hotKeyData.keyCode))
             {
                 InputState = InputState.Up;
-                OnInputUp?.Invoke();
             }
         }
     }

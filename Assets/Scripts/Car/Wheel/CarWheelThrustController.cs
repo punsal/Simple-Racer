@@ -16,8 +16,13 @@ namespace Car.Wheel
 
         public void Thrust(float torque, float topSpeed = 50f)
         {
+            if (wheelCollider == null)
+            {
+                wheelCollider = GetComponent<WheelCollider>();
+            }
+            
             wheelCollider.motorTorque = torque;
-
+            
             Observable.EveryFixedUpdate().Subscribe(_ =>
             {
                 if (!(Math.Abs(wheelCollider.attachedRigidbody.velocity.magnitude - topSpeed) < 0.1f))

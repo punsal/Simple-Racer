@@ -753,8 +753,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Car" t="Include">
-            <e p="CarController.cs" t="Include" />
-            <e p="Drive" t="Include">
+            <e p="Controller" t="Include">
               <e p="CarDriftController.cs" t="Include" />
               <e p="CarDriveController.cs" t="Include" />
             </e>
@@ -763,6 +762,7 @@
               <e p="IThrustController.cs" t="Include" />
             </e>
             <e p="Wheel" t="Include">
+              <e p="CarWheelColliderController.cs" t="Include" />
               <e p="CarWheelSteeringController.cs" t="Include" />
               <e p="CarWheelThrustController.cs" t="Include" />
               <e p="Graphics" t="Include">
@@ -773,23 +773,52 @@
           <e p="Controllers" t="Include">
             <e p="CameraFollowController.cs" t="Include" />
           </e>
+          <e p="Data" t="Include">
+            <e p="GameData.cs" t="Include" />
+            <e p="GameState.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="RoadGenerationData.cs" t="Include" />
+          </e>
           <e p="EventArguments" t="Include">
             <e p="GameEventType.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="Ground" t="Include">
+            <e p="GroundCheckTriggerController.cs" t="Include" />
+          </e>
           <e p="Hook" t="Include">
             <e p="HookController.cs" t="Include" />
           </e>
           <e p="Manager" t="Include">
             <e p="InputManager.cs" t="Include" />
           </e>
+          <e p="Player" t="Include">
+            <e p="Player.cs" t="Include" />
+          </e>
           <e p="Road" t="Include">
-            <e p="Generator" t="Include">
+            <e p="Controller" t="Include">
               <e p="RoadController.cs" t="Include" />
+              <e p="Trigger Controller" t="Include">
+                <e p="RoadDriftTriggerController.cs" t="Include" />
+                <e p="RoadScoreTriggerController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Generator" t="Include">
               <e p="RoadGenerator.cs" t="Include" />
-              <e p="RoadTriggerController.cs" t="Include" />
+            </e>
+            <e p="Type" t="Include">
               <e p="RoadType.cs" t="Include" />
             </e>
+          </e>
+          <e p="Scene Dependencies" t="Include">
+            <e p="TestSceneInstaller.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Controller" t="Include">
+              <e p="ShowScoreController.cs" t="Include" />
+              <e p="ViewController.cs" t="Include" />
+            </e>
+            <e p="UIManager.cs" t="Include" />
           </e>
           <e p="Utility" t="Include">
             <e p="Behaviour" t="Include">

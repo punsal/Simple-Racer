@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Data;
+using Road.Controller;
+using Road.Type;
 using UnityEngine;
+using Zenject;
 
 namespace Road.Generator
 {
@@ -16,28 +20,33 @@ namespace Road.Generator
         
         [Header("Available Roads")]
         [SerializeField] private List<RoadController> roadControllers = new List<RoadController>();
-
-        [Header("Generation")]
-        [SerializeField] private int initialCount = 10;
-        [SerializeField] private int levelCount = 3;
         #pragma warning restore 649
 
+        private RoadGenerationData roadGenerationData;
+        
         private readonly Queue<RoadController> generatedRoads = new Queue<RoadController>();
         
         private Vector3 spawnPosition;
         private Quaternion spawnRotation;
         private RoadType nextRoadType;
 
+        [Inject]
+        // ReSharper disable once ParameterHidesMember
+        private void Construct(RoadGenerationData roadGenerationData)
+        {
+            this.roadGenerationData = roadGenerationData;
+        }
+        
         public void Generate(bool isOnce = false)
         {
             spawnPosition = Vector3.zero;
             spawnRotation = Quaternion.identity;
             
-            for (var i = 0; i < (isOnce ? 1 : levelCount); i++)
+            for (var i = 0; i < (isOnce ? 1 : roadGenerationData.levelBatchBuffer); i++)
             {
                 SpawnRoad(startingRoadController);
                 
-                for (var j = 0; j < initialCount; j++)
+                for (var j = 0; j < roadGenerationData.scorePerLevel; j++)
                 {
                     var nextRoad = roadControllers.FirstOrDefault(roadController => roadController.RoadType == nextRoadType);
                     if (SpawnRoad(nextRoad)) continue;
@@ -91,8 +100,8 @@ namespace Road.Generator
 
         private void OnPlayerScored(int score)
         {
-            if (score % (initialCount * 2) != 0) return;
-            for (var i = 0; i < initialCount + 2; i++)
+            if (score % (roadGenerationData.scorePerLevel * 2) != 0) return;
+            for (var i = 0; i < roadGenerationData.scorePerLevel + 2; i++)
             {
                 var temp = generatedRoads.Dequeue();
                 Destroy(temp.gameObject);

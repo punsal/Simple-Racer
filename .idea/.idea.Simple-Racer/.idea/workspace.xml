@@ -11,42 +11,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6950e03b-96d6-46d2-916a-d54adef5341b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Left U Turn.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Left U Turn.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Right U Turn.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Right U Turn.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Road Default.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Road Default.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Left.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Left.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Right.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Right.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Game Data.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Game Data.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Player Data.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Player Data.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Road Generation Data.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Test Scene Road Generation Data.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Hook.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Hook.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Controller/CarDriftController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Controller/CarDriftController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Controller/CarDriveController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Controller/CarDriveController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelColliderController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelColliderController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/PlayerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/PlayerData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/RoadGenerationData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/RoadGenerationData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ground/GroundCheckTriggerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ground/GroundCheckTriggerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/RoadController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/RoadController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/Trigger Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/Trigger Controller/RoadDriftTriggerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/Trigger Controller/RoadDriftTriggerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/Trigger Controller/RoadScoreTriggerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Controller/Trigger Controller/RoadScoreTriggerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Type.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Type/RoadType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Type/RoadType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene Dependencies/TestSceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene Dependencies/TestSceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Controller/ShowScoreController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Controller/ShowScoreController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Controller/ViewController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Controller/ViewController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Simple-Racer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Fence_Alpha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fence_Alpha.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Dark Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Dark Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Solid Color Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment/SR_Env_Concrete_Track_WideCorner_Concrete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/SR_Env_Concrete_Track_WideCorner_Concrete.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Left U Turn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Left U Turn.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Right U Turn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Right U Turn.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Road Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Road Default.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Left.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Road Prefabs/Turn Right.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Drive.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelSteeringController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelSteeringController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelThrustController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelThrustController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/Graphics/CarWheelGraphicsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/Graphics/CarWheelGraphicsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/Manager/Type/InputState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/Manager/Type/InputState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,42 +104,69 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/RoadGenerationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/Behaviour/Game/HotKey/HotKeyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/GameState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ground/GroundCheckTriggerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/Manager/Type/InputState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/f4/65bea32f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/a3/e14e8bc5/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/Manager/Type/InputState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelThrustController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelSteeringController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Dependencies/TestSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/Behaviour/Trigger/TriggerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Wheel/Graphics/CarWheelGraphicsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelColliderController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/CameraFollowController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Interface/IThrustController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/88/ed9625d1/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E98ED036-8295-432E-8C11-E52D6243EE11/f4/65bea32f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraFollowController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarMovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarWheelGraphicsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarWheelSteeringController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarDriveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car/CarWheelThrustController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utility/Manager/Type/InputState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadScoreTriggerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ground/GroundCheckController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ground/GroundCheckTriggerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ShowScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Controllers/ShowScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ViewController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerationData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene Dependencies/TestSceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hook/HookController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelSteeringController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelColliderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Drive/CarDriftController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/Graphics/CarWheelGraphicsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car/Wheel/CarWheelThrustController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadDriftTriggerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Road/Generator/RoadTriggerController.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594068904608</updated>
       <workItem from="1594068922477" duration="9292000" />
-      <workItem from="1594152046025" duration="13209000" />
+      <workItem from="1594152046025" duration="30905000" />
     </task>
     <servers />
   </component>
@@ -176,73 +250,73 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="423" height="464" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1594198914179" />
-    <state width="1876" height="391" key="GridCell.Tab.0.bottom" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.0.bottom" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.0.center" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.0.center" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.0.left" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.0.left" timestamp="1594222513053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.0.right" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513053" />
+    <state width="1876" height="391" key="GridCell.Tab.0.right" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.1.bottom" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.1.bottom" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.1.center" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.1.center" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.1.left" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.1.left" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.1.right" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.1.right" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.2.bottom" timestamp="1594199282510">
+    <state width="1876" height="391" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.2.bottom" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282510" />
-    <state width="1876" height="391" key="GridCell.Tab.2.center" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.2.center" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.2.left" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.2.left" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.2.right" timestamp="1594199282509">
+    <state width="1876" height="391" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.2.right" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282509" />
-    <state width="1876" height="391" key="GridCell.Tab.3.bottom" timestamp="1594199282510">
+    <state width="1876" height="391" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.3.bottom" timestamp="1594222513055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282510" />
-    <state width="1876" height="391" key="GridCell.Tab.3.center" timestamp="1594199282510">
+    <state width="1876" height="391" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513055" />
+    <state width="1876" height="391" key="GridCell.Tab.3.center" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282510" />
-    <state width="1876" height="391" key="GridCell.Tab.3.left" timestamp="1594199282510">
+    <state width="1876" height="391" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.3.left" timestamp="1594222513054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282510" />
-    <state width="1876" height="391" key="GridCell.Tab.3.right" timestamp="1594199282510">
+    <state width="1876" height="391" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513054" />
+    <state width="1876" height="391" key="GridCell.Tab.3.right" timestamp="1594222513055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594199282510" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594166924838">
+    <state width="1876" height="391" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594222513055" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594221829079">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1594166924838" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1594221829079" />
   </component>
 </project>

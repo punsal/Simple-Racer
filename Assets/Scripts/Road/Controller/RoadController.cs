@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Road.Type;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Road.Generator
+namespace Road.Controller
 {
     public class RoadController : MonoBehaviour
     {

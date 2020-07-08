@@ -1,4 +1,4 @@
-﻿namespace Road.Generator
+﻿namespace Road.Type
 {
     public enum RoadType
     {
